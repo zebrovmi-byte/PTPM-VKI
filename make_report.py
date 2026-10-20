@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Генерация отчёта по ЛР2 (Отчет_ЛР2_ФИО.docx)."""
+"""Генерация отчёта по ЛР2 (Отчет_ЛР2_Зебров.docx)."""
 from docx import Document
 from docx.shared import Pt, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -138,5 +138,5 @@ p("3. Побочный эффект при импорте. Настройка л
   "конфигурация вынесена в функцию configure_logging(), которая вызывается только при запуске скрипта "
   "напрямую (__main__).")
 
-doc.save("Отчет_ЛР2_ФИО.docx")
+doc.save("Отчет_ЛР2_Зебров.docx")
 print("OK")
